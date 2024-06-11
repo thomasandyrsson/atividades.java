@@ -14,14 +14,14 @@ class Pessoa {
 // Criar atributos da classe Pessoa
     private String nome;
     private int idade;
-    private Double altura;
+    private double altura;
 
 // Usando o método Set para inserir nome, idade e altura
     public void setNome(String nome){
         this.nome = nome;
     }
 
-    public void setIdade(Id idade){
+    public void setIdade(int idade){
         this.idade = idade;
     }
 
