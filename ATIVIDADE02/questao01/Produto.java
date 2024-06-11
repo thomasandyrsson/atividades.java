@@ -33,18 +33,13 @@ public class Produto{
     public Double getPreco(){
         return valor;
     }
-}
+
 
 // Show details
     public void imprimeProduto(){
-        System.err.printf("NOME: ", getNome());
-        System.out.printf("TIPO: ", getTipo);
-        System.out.printf("PREÇO: ", getPreco);
+        System.out.println("NOME: " + getNome());
+        System.out.println("TIPO: " + getTipo());
+        System.out.println("PREÇO: " + getPreco());
     }
 
-public static void main (String[] args){
-    Produto produto = new Produto ("Teclado", "Informática", 69.90);
-    Produto produto2 = new Produto ("Mouse", "Informática", 39.90);
-
-    Produto.imprimeProduto();
 }
