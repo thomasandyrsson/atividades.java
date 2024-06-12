@@ -29,6 +29,9 @@ class Main {
 
     //Imprimindo p1
         p1.printDados();
+    
+    //Close scanner
+    leia.close();
     }
         
 }
