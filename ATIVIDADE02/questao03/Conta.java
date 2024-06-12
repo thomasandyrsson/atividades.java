@@ -74,7 +74,7 @@ Saldo. Os atributos devem ter visibilidade private. */
     }
 
     public void consultaSaldo(){
-        System.out.println("\n SEU SALDO É: " + saldo);
-        //System.out.printf("\n| SEU SALDO É: %.2d", saldo);
+        // System.out.println("\n SEU SALDO É: " + saldo);
+        System.out.printf("\n| SEU SALDO É: %.2f", saldo);
     }
 }
