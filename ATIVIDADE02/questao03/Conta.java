@@ -1,17 +1,3 @@
-/*
-
- 
-
-
-
-
-
-
-Passo iv) Após o laço de repetição, faça uma estrutura de 
-decisão para verificar o saldo. Caso ele esteja positivo, escreva na tela “Saldo Final Positivo” seguido 
-do valor do saldo final. Caso contrário, escreva “Saldo Final Negativo” seguido do valor do saldo final. 
-
-*/
 package questao03;
 
 public class Conta {
@@ -73,8 +59,16 @@ Saldo. Os atributos devem ter visibilidade private. */
             setSaldo(novoValor); 
     }
 
+//Método de consulta do valor do saldo
     public void consultaSaldo(){
-        // System.out.println("\n SEU SALDO É: " + saldo);
-        System.out.printf("\n| SEU SALDO É: %.2f", saldo);
-    }
+        
+        if(saldo >= 0){
+            System.out.println("\n SALDO FINAL POSITIVO");
+            System.out.printf("\n| SEU SALDO É: %.2f", saldo);
+        }
+        else{
+            System.out.println("\n SALDO FINAL NEGATIVO");
+            System.out.printf("\n| SEU SALDO É: %.2f", saldo);
+            }
+        }
 }

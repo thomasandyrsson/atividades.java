@@ -18,6 +18,7 @@ e 100, pode-se usar: Math.random() * 100.0.  */
             double saque = Math.random() * 100.0;
             c1.saqueValor(saque);            
         }
+        System.out.println("\n\n\n======== SAQUE EFETUADO ========");
         c1.consultaSaldo();
     }
 }
