@@ -1,7 +1,20 @@
 package questao04;
+import java.util.Scanner;
 
 public class Agenda {
-    Contato vetor[];
+//Criando vetor
+    Contato[] lista;
+    int quantidade;
 
-    Contato contato = new Contato()
+//Abre o scanner
+    Scanner leia = new Scanner(System.in);
+
+//Construtor
+    public Agenda(int quantidade) {
+        this.quantidade = quantidade;
+        lista[quantidade];
+    }
+
+//Fechar o Scanner    
+    leia.close();
 }
