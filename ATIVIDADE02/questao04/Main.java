@@ -9,6 +9,7 @@ public class Main {
         a1.novoContato("Marianny Fernandes", "9877451662");
         a1.novoContato("Gabriel Oliveira", "65882544485");
         a1.novoContato("José Florentino", "878541544448");
+        a1.novoContato("Adriana Cidrack", "545646541646");
         a1.novoContato("João Albuquerque", "888774593");
         a1.novoContato("Teste 03", "85585545");
 
