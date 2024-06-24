@@ -17,10 +17,10 @@ public class Pikachu extends Pokemon{
     }
 
     public void evoluir(){
-        System.out.println("===== EVOLUINDO... =====");
+        System.out.println("\n===== EVOLUINDO... =====");
 
         faseEvolucao += 1;
 
-        System.out.printf("Pikachu evoluiu para a evolução %d a partir de um pedaço de pedra de evolução", getFaseEvolucao());
+        System.out.printf("Pikachu evoluiu para a evolução %d (Raichu) a partir de um pedaço de pedra de evolução", getFaseEvolucao());
     }
 }

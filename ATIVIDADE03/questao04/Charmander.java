@@ -3,8 +3,6 @@ package questao04;
 public class Charmander extends Pokemon{
     private int intensidadeDoJatoDeFogo;
 
-    Pokemon charmander = new Pokemon(1, "Fogo");
-
     public Charmander (int faseEvolucao, String type, int intensidadeDoJatoDeFogo){
         super(faseEvolucao, type);
         this.intensidadeDoJatoDeFogo = intensidadeDoJatoDeFogo;
@@ -19,10 +17,10 @@ public class Charmander extends Pokemon{
     }
 
     public void evoluir(){
-        System.out.println("===== EVOLUINDO... =====");
+        System.out.println("\n===== EVOLUINDO... =====");
 
         faseEvolucao += 1;
 
-        System.out.printf("Pikachu evoluiu para a evolução %d a partir de um pedaço de pedra de evolução", charmander.getFaseEvolucao());
+        System.out.printf("Charmander evoluiu para a evolução %d (Charmellion)", getFaseEvolucao());
     }
 }
