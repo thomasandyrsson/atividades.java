@@ -22,9 +22,11 @@ public class Main {
 
     public static void main(String[] args) {
         //Instanciar novo objeto a1
-        Animal a1 = new Gato("Mamífero", "Fêmea", "Persa");
+        Animal a1 = new Animal("Teste", "teste");
+        a1.falar();
 
         //Gato mia
+        a1 = new Gato("Mamífero", "Fêmea", "Persa");
         System.out.println("O objeto a1 é um gato e o gato faz: ");
         a1.falar();
 
