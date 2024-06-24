@@ -12,8 +12,10 @@ package questao03;
 
 public class Main{
     public static void main(String[] args) {
-        Cliente cliente1 = new Cliente ("João", 26, "125.785.112-85", "8557496");
+        /*Cliente c1 iniciado */
+        Cliente c1 = new Cliente ("João", 26, "125.785.112-85", "8557496");
         
-        cliente1.imprimeDados;
+        /*Chamar método de impressão */
+        c1.imprimeDados();
     }
 }
