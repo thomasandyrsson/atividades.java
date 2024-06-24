@@ -7,9 +7,8 @@ Saldo. Os atributos devem ter visibilidade private. */
     private int agencia;
     private String tipo;
     private double saldo;
-    private double valorDoSaque;
-
-/*Encapsule os atributos criando métodos SETs e GETs.  */
+    
+    /*Encapsule os atributos criando métodos SETs e GETs.  */
     public int getConta(){
         return conta;
     }
@@ -54,7 +53,6 @@ Saldo. Os atributos devem ter visibilidade private. */
 /*Crie um método público para decrementar o saldo.  */ 
 
     public void saqueValor(double valorDoSaque){
-        this.valorDoSaque = valorDoSaque;
         double novoValor = saldo - valorDoSaque;
             setSaldo(novoValor); 
     }
