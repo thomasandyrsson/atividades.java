@@ -2,11 +2,11 @@ package questao04;
 
 public class Pokemon {
     protected int faseEvolucao;
-    protected String type;
+    protected String typePokemon;
 
-    public Pokemon(int faseEvolucao, String type){
+    public Pokemon(int faseEvolucao, String typePokemon){
         this.faseEvolucao = faseEvolucao;
-        this.type = type;
+        this.typePokemon = typePokemon;
     }
 
     public int getFaseEvolucao() {
@@ -15,6 +15,14 @@ public class Pokemon {
 
     public void setFaseEvolucao(int faseEvolucao) {
         this.faseEvolucao = faseEvolucao;
+    }
+
+    public String getTypePokemon() {
+        return typePokemon;
+    }
+
+    public void setTypePokemon(String type) {
+        this.typePokemon = type;
     }
 
     public void evoluir(){

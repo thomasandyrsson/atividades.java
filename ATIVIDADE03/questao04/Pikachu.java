@@ -3,11 +3,13 @@ package questao04;
 public class Pikachu extends Pokemon{
     private int intensidadeDoPoderDoChoqueDoTrovão;
 
+    //Construtor do pokemon Pikachu
     public Pikachu (int faseEvolucao, String type, int intensidadeDoPoderDoChoqueDoTrovão){
         super(faseEvolucao, type);
         this.intensidadeDoPoderDoChoqueDoTrovão = intensidadeDoPoderDoChoqueDoTrovão;
     }
 
+    //Getters e Setters
     public int getIntPoder() {
         return intensidadeDoPoderDoChoqueDoTrovão;
     }
@@ -16,6 +18,7 @@ public class Pikachu extends Pokemon{
         this.intensidadeDoPoderDoChoqueDoTrovão = intensidadeDoPoderDoChoqueDoTrovão;
     }
 
+    //Evolução de Pikachu
     public void evoluir(){
         System.out.println("\n===== EVOLUINDO... =====");
 
