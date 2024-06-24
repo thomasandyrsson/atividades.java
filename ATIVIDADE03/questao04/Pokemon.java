@@ -4,6 +4,11 @@ public class Pokemon {
     protected int faseEvolucao;
     protected String type;
 
+    public Pokemon(int faseEvolucao, String type){
+        this.faseEvolucao = faseEvolucao;
+        this.type = type;
+    }
+
     public int getFaseEvolucao() {
         return faseEvolucao;
     }
@@ -12,15 +17,11 @@ public class Pokemon {
         this.faseEvolucao = faseEvolucao;
     }
 
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public void evoluir(){
-        getFaseEvolucao() = faseEvolucao + 1;
+        System.out.println("===== EVOLUINDO... =====");
+
+        faseEvolucao += 1;
+
+        System.err.printf("O Pokémon evoluiu para a fase %d", getFaseEvolucao());
     }
 }
